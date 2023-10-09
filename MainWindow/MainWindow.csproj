@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Task1Window\Task1Window.csproj" />
+    <ProjectReference Include="..\Task2Window\Task2Window.csproj" />
+    <ProjectReference Include="..\Task3Window\Task3Window.csproj" />
+    <ProjectReference Include="..\Task4Window\Task4Window.csproj" />
+  </ItemGroup>
+
+</Project>
